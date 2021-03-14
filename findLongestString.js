@@ -4,7 +4,7 @@ const findLongest = (arr) => {
       if (arr[i] != "string") {
         return "only strings are allowed";
       } else {
-        if (arr[i].length > longest.length) {
+        if (arr[i].length < longest.length) {
             longest = arr[i];
         }
       }
